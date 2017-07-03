@@ -47,16 +47,16 @@
     <div style="padding-bottom: 15px;">
         <p><label style="color: black">username:</label> <input type="text" id="user_name" placeholder="Username"></p>
         <p>
-            <label style="color: black">timer:</label> <input type="text" id="step_delay"> <label style="color: black"> minutes</label>
+            <input type="hidden" id="step_delay" value="5">
             <br>
             <br>
-            <button class="btn btn-default timer" id="time_preset_30">1/2 hour</button>
-            <button class="btn btn-default timer" id="time_preset_60">1 hour</button>
-            <button class="btn btn-default timer" id="time_preset_120">2 hours</button>
+            <!--<button class="btn btn-default timer" id="time_preset_30">1/2 hour</button>-->
+            <!--<button class="btn btn-default timer" id="time_preset_60">1 hour</button>-->
+            <!--<button class="btn btn-default timer" id="time_preset_120">2 hours</button>-->
         </p>
-        <p><label style="color: black">No. of likes to RT: </label> <input type="text" id="top_retweets"></p>
+        <p><input type="hidden" id="top_retweets" value="20" disabled></p>
         <p>
-            <button class="btn btn-info btn-large" id="start"> Start</button>
+            <button class="btn btn-info btn-large" id="start"> Save</button>
         </p>
 
     </div>
